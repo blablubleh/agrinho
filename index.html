@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroConsciência | O Equilíbrio da Terra</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://googleapis.com" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Agro<span>Consciência</span></div>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#agro-forte">Agro Forte</a></li>
+                <li><a href="#impacto">O Impacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Alimentando o Mundo, <br><span>Protegendo o Futuro.</span></h1>
+            <p>A força do campo é inegável, mas a saúde da terra exige limites.</p>
+            <button onclick="scrollParaImpacto()">Saiba Mais</button>
+        </div>
+    </section>
+
+    <section id="agro-forte" class="info-section">
+        <div class="container">
+            <h2>A Potência do Agro</h2>
+            <p>O agronegócio é o motor da economia, garantindo segurança alimentar e tecnologia no campo. Mas a força real vem da sustentabilidade.</p>
+            <div class="cards">
+                <div class="card">
+                    <h3>Produtividade</h3>
+                    <p>Recordes de safra ano após ano.</p>
+                </div>
+                <div class="card">
+                    <h3>Tecnologia</h3>
+                    <p>Drones e IA monitorando a saúde do plantio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto" class="dark-section">
+        <div class="container">
+            <h2>O Alerta do Excesso</h2>
+            <p>O uso indiscriminado de defensivos químicos afeta o solo, a água e a nossa saúde. O desafio é produzir sem destruir.</p>
+            <div id="contador-container">
+                <p>Estimativa de agrotóxicos usados hoje (Kg):</p>
+                <span id="contador">0</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Projeto AgroConsciência - Desenvolvido para reflexão ambiental.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
